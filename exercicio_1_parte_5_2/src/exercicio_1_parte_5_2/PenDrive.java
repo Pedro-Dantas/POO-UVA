@@ -112,7 +112,7 @@ public class PenDrive
     
     public double getPreco(){ return preco; }
     
-     public double getUnidade(){ return unidade; }
+    public String getUnidade(){ return unidade; }
     
     public void cadastrar(String marca, int capacidade, double comprimento, double largura,
                                             double profundidade, double peso, double preco, String unidade)
